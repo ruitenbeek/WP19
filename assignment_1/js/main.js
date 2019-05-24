@@ -71,7 +71,7 @@ function addSidebar(page2) {
         mainColumn.className = 'col-md-8';
         var newDiv =  document.createElement('div');
         newDiv.className = 'col-md-4';
-        var newHeader = document.createElement('h1');
+        var newHeader = document.createElement('h1');});
         var newHead = document.createTextNode('Sidebar');
         newHeader.appendChild(newHead);
         newDiv.appendChild(newHeader);
